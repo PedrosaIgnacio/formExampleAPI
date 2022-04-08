@@ -11,5 +11,7 @@ namespace Formulario.Core.Interfaces
     public interface ITestRepository
     {
         Task<Registro> AddRecord(RegistroDTO registro);
+        Task<List<Registro>> GetRecords();
+        Task<bool> DeleteRecord(int id);
     }
 }

@@ -42,6 +42,51 @@ namespace Formulario.Api.Controllers
             }
             return StatusCode(Response.StatusCode, error);
         }
+        [HttpGet]
+        public async Task<IActionResult> GetRecords()
+        {
+            Error error = new Error();
+            try
+            {
+                List<Registro> lstReg = await _testService.GetRecords();
+                return Ok(lstReg);
+            }
+            catch (Exception)
+            {
+
+                error.code = 99;
+                error.message = "Internal Server Error. Please try again later.";
+                Response.StatusCode = 500;
+            }
+            return StatusCode(Response.StatusCode, error);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> DeleteRecord(int id)
+        {
+            Error error = new Error();
+            try
+            {
+                bool jeje = await _testService.DeleteRecord(id);
+                if (jeje)
+                {
+                    return Ok(true);
+                }
+                else
+                {
+                    return NotFound(false);
+                }
+
+            }
+            catch (Exception)
+            {
+                error.code = 99;
+                error.message = "Internal Server Error. Please try again later.";
+                Response.StatusCode = 500;
+                
+            }
+            return StatusCode(Response.StatusCode, error);
+        }
 
     }
 }
