@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6QbyB4fGzfW2thYqhNhqVCRWPDYa2f3BtjQhH9zWtf4aaEuS5jVBHf2JsA2f9AVe7Ub+CCN87eW5ZOR8rOAZWg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\UsrTarde\\source\\repos\\Formulario.Api\\Formulario.Api\\Formulario.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UsrTarde\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\UsrTarde\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\UsrTarde\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\UsrTarde\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\UsrTarde\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\UsrTarde\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
