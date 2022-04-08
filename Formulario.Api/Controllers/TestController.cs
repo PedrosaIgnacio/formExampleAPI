@@ -67,8 +67,8 @@ namespace Formulario.Api.Controllers
             Error error = new Error();
             try
             {
-                bool jeje = await _testService.DeleteRecord(id);
-                if (jeje)
+                bool success = await _testService.DeleteRecord(id);
+                if (success)
                 {
                     return Ok(true);
                 }
